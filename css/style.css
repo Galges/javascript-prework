@@ -1,2 +1,20 @@
-
+/*Global*/
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.container {
+    text-align: center;
+    
+}
+.buttons {
+    border:solid 
+    
+}
+h1 {
+    text-align: center;
+    padding: 50px;
+}
+h2 {
+    text-align: center;
+}
+body {
+    background-color: cadetblue;
+}
