@@ -17,14 +17,14 @@ document.getElementById('messages').innerHTML = '';
 
 
 
-playerMove = argButtonName;
-var argButtonName, buttonTest;
+const homeUr1 ='playerMove = argButtonName'; 
+'argButtonName, buttonTest';
 
 
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-  var computerMove, randomNumber;
+  let computerMove, randomNumber;
 randomNumber = Math.floor(Math.random() * 3 + 1);
 console.log('wylosowana liczba to: ' + randomNumber);
 if (randomNumber == '1') {
