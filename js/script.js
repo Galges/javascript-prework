@@ -1,6 +1,6 @@
 function printMessage(msg){
 
-var div = document.createElement('div');
+const div = document.createElement('div');
 div.innerHTML = msg; 
 document.getElementById('messages').appendChild(div);
 
@@ -52,7 +52,7 @@ buttonTest.addEventListener('click', function(){ buttonClicked('nożyce'); });
 
 
 
-
+/*
 if (playerInput == '1') {
 playerMove = 'kamień';
 printMessage('Twój ruch: ' + playerMove);
@@ -71,6 +71,7 @@ printMessage('Wybierz poprawna odpowiedź');
 }
 
 //printMessage('Twój ruch: ' + playerMove);
+*/
 
 function getMoveName(argMoveId) {
 console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
@@ -102,6 +103,7 @@ if (argPlayerMove == 'papier' && argComputerMove == 'kamień') {
 }
 printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
 }
+/*
 playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
 console.log('wybór ruchu gracza to: ' + playerInput);
 playerMove = getMoveName(playerInput);
@@ -112,3 +114,4 @@ computerMove = getMoveName(randomNumber);
 console.log('ruch komputera to: ' + computerMove);
 displayResult(playerMove, computerMove);
 
+*/
