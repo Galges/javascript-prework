@@ -17,9 +17,9 @@ function clearMessages(){
 
 
 /*playerMove = argButtonName; 
-var argButtonName, buttonTest;
+var argButtonName, b
 */
-
+let  buttonTest;
 
 function buttonClicked(argButtonName) {
   clearMessages();
