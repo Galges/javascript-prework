@@ -1,13 +1,12 @@
-function printMessage(msg){
-
-const div = document.createElement('div');
-div.innerHTML = msg; 
-document.getElementById('messages').appendChild(div);
+function printMessage(msg){ 
+  const div = document.createElement('div');
+  div.innerHTML = msg; 
+  document.getElementById('messages').appendChild(div);
 
 }
 
 function clearMessages(){
-document.getElementById('messages').innerHTML = '';
+  document.getElementById('messages').innerHTML = '';
 
 }
 
@@ -17,8 +16,9 @@ document.getElementById('messages').innerHTML = '';
 
 
 
-const homeUr1 ='playerMove = argButtonName'; 
-'argButtonName, buttonTest';
+/*playerMove = argButtonName; 
+var argButtonName, buttonTest;
+*/
 
 
 function buttonClicked(argButtonName) {
